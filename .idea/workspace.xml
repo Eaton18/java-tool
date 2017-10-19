@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68fb680e-2c5a-4884-8690-48a365a3fd5d" name="Default" comment="add read metric csv file function">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/org/apache/commons/math3/stat/annotations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eaton/utilities/StatisticsUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Test.java" />
+    <list default="true" id="68fb680e-2c5a-4884-8690-48a365a3fd5d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java-tool.iml" afterPath="$PROJECT_DIR$/java-tool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eaton/examples/CSVFileOps.java" afterPath="$PROJECT_DIR$/src/main/java/com/eaton/examples/CSVFileOps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eaton/utilities/MetricTableMap.java" afterPath="$PROJECT_DIR$/src/main/java/com/eaton/utilities/MetricTableMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/datasets/README.md" afterPath="$PROJECT_DIR$/src/main/resources/datasets/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +60,8 @@
       <file leaf-file-name="StatisticsUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eaton/utilities/StatisticsUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="495">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -691,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508413134239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add mad &amp; median calculate method.">
+      <created>1508429842694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508429842694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -745,7 +743,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add read metric csv file function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add read metric csv file function" />
+    <MESSAGE value="add mad &amp; median calculate method." />
+    <option name="LAST_COMMIT_MESSAGE" value="add mad &amp; median calculate method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -906,6 +905,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="99">
             <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -995,8 +995,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eaton/utilities/StatisticsUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="495">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
