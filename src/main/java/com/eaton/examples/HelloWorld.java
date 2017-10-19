@@ -1,4 +1,4 @@
-package examples;
+package com.eaton.examples;
 
 public class HelloWorld {
     public static void main(String args[]){
