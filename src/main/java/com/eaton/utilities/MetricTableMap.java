@@ -22,9 +22,9 @@ public class MetricTableMap {
      * Return the metric value read from csv file in a HashMap
      * File format must: |DateTime|metric1|metric2|...|
      *
-     * @param   filePath csv file location
+     * @param  filePath csv file location
      * @throws IOException file not found
-     * @return  metricTable metric value
+     * @return metricTable metric value
      */
     public static Map<String, Map<Date, Integer>> readMetricCsvFile(String filePath) throws IOException, ParseException {
 

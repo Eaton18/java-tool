@@ -15,7 +15,6 @@ public class CSVFileOps {
     public static void main(String args[]) {
 
         // |Date|ASM_Domestic|ASM_International|Flights_Domestic|Flights_International|Passengers_Domestic|Passengers_International|RPM_Domestic|RPM_International\
-        //String filePath = "C:\\Users\\yitgeng\\Documents\\workspace\\githubWorkspace\\java-tool\\src\\main\\resources\\datasets\\US_Commercial_Aviation_Industry_Metrics(all_airlines_all_airports).csv";
         String filePath = "src\\main\\resources\\datasets\\US_Commercial_Aviation_Industry_Metrics(all_airlines_all_airports).csv";
 
         Map<String, Map<Date, Integer>> metricTable = null;
