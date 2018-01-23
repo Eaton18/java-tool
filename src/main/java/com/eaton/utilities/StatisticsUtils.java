@@ -24,6 +24,7 @@ public class StatisticsUtils {
             return 0.0;
         }
         return StatUtils.sum(values);
+
     }
 
 
