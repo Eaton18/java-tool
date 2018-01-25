@@ -8,6 +8,10 @@
     <artifactId>java-tool</artifactId>
     <version>0.1.0</version>
 
+    <properties>
+        <jackson.version>2.7.0</jackson.version>
+    </properties>
+
     <dependencies>
 
         <dependency>
@@ -34,6 +38,25 @@
             <artifactId>jsoup</artifactId>
             <version>1.11.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
 
     </dependencies>
 

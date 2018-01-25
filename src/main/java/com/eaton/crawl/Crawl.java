@@ -125,8 +125,10 @@ public class Crawl {
         String urlBlog = "http://www.cnblogs.com/eatongeng/";
         String urlCSDN = "http://blog.csdn.net/Eaton18";
         String localPath = "src/main/resources/";
-//        saveHtml(urlCSDN);
-//        getUrl(urlCSDN);
-        parseLocalhtml(localPath);
+        String poolLogPath = "http://appmon.vip.ebay.com/logview/environment/prod/pool/r1opmssvc/machine/lvsopmssvc-1316073.stratus.lvs.ebay.com/rawLog?datetime=2018/01/18%2020:00&thread=195";
+        saveHtml(poolLogPath);
+//        getUrl(poolLogPath);
+        // parseLocalhtml(localPath);
     }
+
 }
