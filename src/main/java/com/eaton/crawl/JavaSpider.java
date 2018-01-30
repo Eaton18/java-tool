@@ -37,7 +37,8 @@ public class JavaSpider {
 
             URL temp = new URL(url);
             URLConnection uc = temp.openConnection();
-            uc.addRequestProperty("User-Agent", "Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5");
+//            uc.addRequestProperty("User-Agent", "Mozilla/5.0 (iPad; U; CPU OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5");
+            uc.setConnectTimeout(300000);
             is = temp.openStream();
 
             //为字节输入流加缓冲
@@ -132,7 +133,9 @@ public class JavaSpider {
 
     //main函数
     public static void main(String[] args) {
-        String url = "http://blog.csdn.net/Eaton18";
+//        String url = "http://blog.csdn.net/Eaton18";
+        String url = "http://appmon.vip.ebay.com/logview/environment/prod/pool/affinsvc/machine/lvsaffinsvc-1395651.stratus.lvs.ebay.com/rawLog?thread=0xa0&datetime=2018/01/20%2020:00";
+//        0xa0-lvsaffinsvc-1395651.stratus.lvs.ebay.com.log
         String path = "src/main/resources/";
         //保存到本地的网页地址
         Save_Html(url);
